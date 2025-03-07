@@ -6,6 +6,7 @@ AvaSync is a web application designed to manage user profiles, allowing users to
 
 This project is ideal for programmers interested in exploring Laravel-based web applications, profile management systems, or contributing to an open-source project.
 
+---
 
 ## Setup Instructions for Windows
 
@@ -17,16 +18,19 @@ To set up AvaSync on your local machine, follow these steps. This guide assumes 
 3. **Node.js** installed (for frontend asset compilation).
 4. **Git** installed (for cloning the repository).
 
+---
 
 ### Step 1: Install XAMPP and Start Apache and MySQL
 1. Download and install [XAMPP](https://www.apachefriends.org/index.html).
 2. Start the **Apache** and **MySQL** services from the XAMPP Control Panel.
 
+---
 
 ### Step 2: Install Composer
 1. Download and install [Composer](https://getcomposer.org/).
 2. During installation, check the box to **Add `C:\xampp\php\php.exe` to PATH**.
 
+---
 
 ### Step 3: Install Node.js
 1. Download and install [Node.js](https://nodejs.org/).
@@ -36,6 +40,7 @@ To set up AvaSync on your local machine, follow these steps. This guide assumes 
    npm -v
    ```
 
+---
 
 ### Step 4: Clone or Download the Repository
 Clone the repository to your local machine using Git:
@@ -44,6 +49,7 @@ git clone https://github.com/your-username/AvaSync.git
 ```
 Alternatively, download the repository as a ZIP file and extract it to your desired location.
 
+---
 
 ### Step 5: Navigate to the Project Folder
 Open Command Prompt and navigate to the project folder:
@@ -51,6 +57,7 @@ Open Command Prompt and navigate to the project folder:
 cd path\to\AvaSync
 ```
 
+---
 
 ### Step 6: Install Dependencies
 1. Install Node.js dependencies:
@@ -68,6 +75,7 @@ cd path\to\AvaSync
    composer install
    ```
 
+---
 
 ### Step 7: Set Up Environment Configuration
 1. Create a `.env` file by copying the `.env.example` file:
@@ -83,11 +91,13 @@ cd path\to\AvaSync
    php artisan storage:link
    ```
 
+---
 
 ### Step 8: Create a Database
 1. Open **phpMyAdmin** (or your preferred MySQL client).
 2. Create a new database for the project (e.g., `avasync`).
 
+---
 
 ### Step 9: Configure the `.env` File
 1. Open the `.env` file in a text editor.
@@ -104,6 +114,7 @@ cd path\to\AvaSync
    FILESYSTEM_DISK=public
    ```
 
+---
 
 ### Step 10: Run Migrations and Compile Assets
 1. Run the database migrations to set up the required tables:
@@ -119,6 +130,7 @@ cd path\to\AvaSync
    npm run build
    ```
 
+---
 
 ### Step 11: Start the Application
 1. Start the development server:
@@ -127,10 +139,12 @@ cd path\to\AvaSync
    ```
    This will start the application at `http://localhost:8000`.
 
+---
 
 ### Step 12: Access the Application
 Open your browser and navigate to `http://localhost:8000`. You should now see the AvaSync application running locally.
 
+---
 
 ## Contributing
 Contributions are welcome! If you'd like to contribute to AvaSync, please follow these steps:
@@ -139,14 +153,17 @@ Contributions are welcome! If you'd like to contribute to AvaSync, please follow
 3. Commit your changes and push to your branch.
 4. Submit a pull request with a detailed description of your changes.
 
+---
 
 ## License
 This project is open-source and available under the [MIT License](LICENSE).
 
+---
 
 ## Support
 If you encounter any issues or have questions, feel free to open an issue on the GitHub repository.
 
+---
 
 Thank you for using AvaSync! Happy coding! 🚀
 
