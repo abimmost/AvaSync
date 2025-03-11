@@ -27,7 +27,7 @@
 
         <input type="file" id="pfp" name="pfp" class="hidden" accept=".jpg, .jpeg, .png" />
 
-        @include('profile.partials.croppicture')
+        <!-- @include('profile.partials.croppicture') -->
 
         <div>
             <x-input-label for="name" :value="__('Name')" />
